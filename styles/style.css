@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
 }
@@ -25,7 +30,7 @@ body {
 }
 
 .banner-content {
-    padding: 115px 145px 153px 670px
+    padding: 115px 145px 185px 670px
 }
 
 .banner-title {
@@ -40,4 +45,41 @@ body {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 30px;
+}
+
+
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+
+}
+
+.about-content {
+    margin-left: 80px;
+}
+
+.about-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 250px;
+    margin-bottom: 25px;
+}
+
+.about-description {
+    color: #444343;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.about-list {
+    color: #444343;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 15px;
 }
